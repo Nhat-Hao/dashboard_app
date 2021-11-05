@@ -1,0 +1,62 @@
+.header__dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 4px 8px 8px;
+
+  position: absolute;
+  width: 85px;
+  height: 44px;
+  left: 1622px;
+  top: 26px;
+
+  background: #eaf5fa;
+  border: 1px solid #1085c5;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.header__dropdown p {
+  position: absolute;
+  left: 28px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+
+  color: #1085c5;
+}
+
+.header__dropdown span {
+  border-radius: 28px;
+  width: 15px;
+  height: 15px;
+  background: #ec0015;
+}
+
+.header__user .user__avatar {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 1731px;
+  top: 26px;
+
+  background: #1085c5;
+  border-radius: 32px;
+}
+.header__user p {
+position: absolute;
+width: 90px;
+height: 20px;
+left: 1783px;
+top: 20px;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+
+
+color: #091F3A;
+}
