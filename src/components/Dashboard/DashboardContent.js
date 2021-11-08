@@ -68,7 +68,7 @@ function DashboardContent() {
       <div className="content-5">
         <h1>Cảnh báo phòng giao dịch</h1>
         <div className="content-5__box">
-        <div className="content-5__items">
+          <div className="content-5__items">
             <div className="items5__box">
               <div className="icon icon5-1"></div>
               <div className="text">
@@ -81,7 +81,7 @@ function DashboardContent() {
             <div className="items5__box">
               <div className="icon icon5-2"></div>
               <div className="text">
-                <p>Báo động khẩn cấp</p>
+                <p>Báo động xâm nhập</p>
                 <p>235 thiết bị</p>
               </div>
             </div>
@@ -90,7 +90,37 @@ function DashboardContent() {
             <div className="items5__box">
               <div className="icon icon5-3"></div>
               <div className="text">
-                <p>Báo động khẩn cấp</p>
+                <p>Báo động tại chỗ</p>
+                <p>235 thiết bị</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="content-5__box2">
+          <div className="content-5__items2">
+            <div className="items5__box2">
+              <div className="icon icon5-4"></div>
+              <div className="text">
+                <p>Báo động qua GSM</p>
+                <p>235 thiết bị</p>
+              </div>
+            </div>
+          </div>
+          <div className="content-5__items2">
+            <div className="items5__box2">
+              <div className="icon icon5-5"></div>
+              <div className="text">
+                <p>Cảnh báo khói</p>
+                <p>235 thiết bị</p>
+              </div>
+            </div>
+          </div>
+          <div className="content-5__items2">
+            <div className="items5__box2">
+              <div className="icon icon5-6"></div>
+              <div className="text">
+                <p>Cảnh báo rung</p>
                 <p>235 thiết bị</p>
               </div>
             </div>

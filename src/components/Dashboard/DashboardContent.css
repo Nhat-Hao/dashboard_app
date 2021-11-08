@@ -265,7 +265,7 @@
   border-radius: 8px;
   margin-left: 35px;
 }
-.content-5__items:first-child{
+.content-5__items:first-child {
   margin-left: 32px;
 }
 .items5__box {
@@ -276,7 +276,7 @@
   padding: 0px;
 
   position: static;
-  width: 191px;
+  width: 200px;
   height: 48px;
   left: 16px;
   top: 22px;
@@ -293,14 +293,23 @@
   flex-grow: 0;
   margin: 0px 12px;
 }
-.icon5-1{
+.icon5-1 {
   background: #ff9669;
 }
-.icon5-2{
-  background: #72B4F1;
+.icon5-2 {
+  background: #72b4f1;
 }
-.icon5-3{
-  background: #F7D769;
+.icon5-3 {
+  background: #f7d769;
+}
+.icon5-4 {
+  background: #ff6d88;
+}
+.icon5-5 {
+  background: #183cbc;
+}
+.icon5-6 {
+  background: #30d9ba;
 }
 .items5__box .text p:first-child {
   font-family: Mulish;
@@ -323,6 +332,92 @@
   font-size: 14px;
   line-height: 20px;
 
+  display: flex;
+  align-items: center;
+
+  color: #091f3a;
+}
+
+.content-5__box2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 707px;
+  height: 92px;
+  left: 24px;
+  top: 194px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+
+.content-5__items2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  position: static;
+  width: 224px;
+  height: 92px;
+  left: 0px;
+  top: 0px;
+
+  background: #eaf5fa;
+
+  border: 1px solid #eaf5fa;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-left: 32px;
+}
+.items5__box2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 200px;
+  height: 48px;
+  left: 16px;
+  top: 22px;
+}
+.items5__box2 .icon {
+  position: static;
+  width: 48px;
+  height: 48px;
+
+  border-radius: 12px;
+
+  margin: 0px 12px;
+}
+.items5__box2 .text p:first-child {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 20px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.002em;
+
+  color: #1085c5;
+}
+.items5__box2 .text p:last-child {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
   display: flex;
   align-items: center;
 
